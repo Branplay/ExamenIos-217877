@@ -25,9 +25,6 @@ struct pantalla_6: View {
                     
                     VStack {
                         
-                        Rectangle()
-                        
-                            .foregroundColor(.white)
                         
                         Circle()
                             .foregroundColor(.black)

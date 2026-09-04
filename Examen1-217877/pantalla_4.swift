@@ -30,6 +30,7 @@ struct pantalla_4: View {
                     
                     .foregroundColor(.pink)
                 Rectangle()
+                
                     .foregroundColor(.black)
             }
             HStack {

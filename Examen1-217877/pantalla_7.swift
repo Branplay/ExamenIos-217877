@@ -1,12 +1,13 @@
 //
-//  pantalla_1.swift
+//  pantalla_7.swift
 //  Examen1-217877
 //
-//  Created by alumno on 9/2/26.
+//  Created by alumno on 9/4/26.
 //
+
 import SwiftUI
  
-struct pantalla_5: View {
+struct pantalla_7: View {
 
     var body: some View {
 
@@ -18,27 +19,36 @@ struct pantalla_5: View {
                     
                         .foregroundColor(.black)
                     
-                    Circle()
-                    
-                        .foregroundColor(.green)
+
                     
                     
                 }
                 VStack{
                     
-                    Rectangle()
+                    Circle()
                     
                         .foregroundColor(.black)
                     
  
                     
+                    HStack{
+                        
+                        
+                        
+                        Rectangle()
+                        
+                            .foregroundColor(.green)
+                        
+                        Circle()
+                        
+                            .foregroundColor(.black)
+                        
+                        
+                    }
                     
                 }
                 VStack{
                     
-                    Circle()
-                    
-                        .foregroundColor(.black)
                     
                     Rectangle()
                     
@@ -48,60 +58,28 @@ struct pantalla_5: View {
                 }
             }
             HStack {
-                VStack{
-                    
-                    
-                    Circle()
-                    
+                HStack{
+                    Circle ()
                         .foregroundColor(.green)
-                    
-                    
-                }
-                VStack{
-                    
                     Rectangle()
                     
-                        .foregroundColor(.black)
-                    
-                    Rectangle()
-                    
-                        .foregroundColor(.green)
-                    
-                    
+                        .foregroundColor(.pink)
                 }
-                VStack{
-                    
-                    Circle()
-                    
-                        .foregroundColor(.black)
-                    
+                
+                HStack{
 
+                    Rectangle()
+                    
+                        .foregroundColor(.black)
                 }
             }
             HStack {
-                VStack{
-                    
-                    Rectangle()
-                    
-                        .foregroundColor(.black)
-                    
-                    Circle()
-                    
-                        .foregroundColor(.green)
-                    
-                    
-                }
-                VStack{
-                    
-
-                    
                     Rectangle()
                     
                         .foregroundColor(.green)
                     
                     
-                }
-                VStack{
+                HStack{
                     
                     Circle()
                     
@@ -110,7 +88,6 @@ struct pantalla_5: View {
                     Rectangle()
                     
                         .foregroundColor(.green)
-                    
                     
                 }
             }
@@ -122,7 +99,7 @@ struct pantalla_5: View {
 }
 #Preview {
 
-    pantalla_5()
+    pantalla_7()
 
 }
  

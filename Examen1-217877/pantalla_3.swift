@@ -17,10 +17,10 @@ struct pantalla_3: View {
                 Rectangle()
 
                     .foregroundColor(.black)
-                Circle()
-
-                    .foregroundColor(.pink)
-                    .padding(20)
+                
+                    Circle()
+                    
+                        .foregroundColor(.pink)
                 Circle()
 
                     .foregroundColor(.black)
